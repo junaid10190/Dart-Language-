@@ -1,0 +1,5 @@
+void main(){
+  const String dest= "Bilot";
+
+  print("2km long away from $dest");
+}
