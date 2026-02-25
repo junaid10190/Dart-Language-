@@ -1,0 +1,10 @@
+void main(){
+  //Product Original cost
+ double Originalcost= 120;
+
+//after discount
+double afterdiscount = Originalcost - (Originalcost*0.25);
+
+print("Original cost= $Originalcost");
+print("after discount= $afterdiscount");
+}
