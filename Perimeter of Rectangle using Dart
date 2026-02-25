@@ -1,0 +1,9 @@
+void main(){
+  double length= 30;
+  double width=10;
+
+  double perimeter= 2*(length+width);
+  print("length: $length");
+  print("width: $width");
+  print("The perimeter of rectangle: $perimeter");
+}
