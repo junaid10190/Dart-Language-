@@ -1,0 +1,11 @@
+void main(){
+  //temperature in celsius
+  double celsius= 100;
+
+  //conversion formula: F=celsius * 9/5 +32
+  double fahrenheit= (celsius*9/5)+32;
+
+  //print result
+  print("temperature in celsius: ${celsius}*C");
+  print("temperature in fahrenheit: ${fahrenheit}*F");
+}
