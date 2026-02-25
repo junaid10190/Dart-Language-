@@ -1,0 +1,26 @@
+void main() {
+  // Monthly Salary
+  double salary = 4000.0;
+  
+  // Calculate Bonus (10% of the salary)
+  double bonus = salary * 0.10;
+  
+  // Add bonus to the salary
+  double salaryAfterBonus = salary + bonus;
+  
+  // Calculate Tax (12% of the salary)
+  double tax = salaryAfterBonus * 0.12;
+  
+  // Subtract tax to get the final salary
+  double finalSalary = salaryAfterBonus - tax;
+  
+  // Round down to the nearest integer
+  int roundedFinalSalary = finalSalary.floor();
+  
+  // Print the results
+  print("Initial Salary: ${salary}");
+  print("Bonus Added: ${bonus}");
+  print("Salary After Bonus: ${salaryAfterBonus}");
+  print("Tax Deducted: ${tax}");
+  print("Final Salary (Rounded Down): ${roundedFinalSalary}");
+}
