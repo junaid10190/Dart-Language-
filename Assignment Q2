@@ -1,0 +1,10 @@
+void main() {
+  int length = 12;
+  int width = 8;
+  
+   int area = length * width;
+  
+  print("Length of Rectangle: $length");
+  print("Width of Rectangle: $width");
+  print("The area of the rectangle is: $area");
+}
