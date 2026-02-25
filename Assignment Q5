@@ -1,0 +1,14 @@
+void main(){
+  //Given time
+  int hours= 2;
+  int minutes= 46;
+  int seconds= 40;
+
+  //convert all to seconds
+  //1 hours= 3600 seconds
+  //1 minute= 60 seconds
+
+  int totalseconds= (hours*3600) + (minutes*60) + 40;
+
+  print("totaltime in seconds= $totalseconds");
+  }
