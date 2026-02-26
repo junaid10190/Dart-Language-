@@ -1,0 +1,20 @@
+void main(){
+  //monthly income
+  double income= 3000;
+
+  //monthly expenses
+  double rent = 1500;
+  double food = 600;
+  double transportation = 300;
+  double misc = 200;
+
+  //total expenses
+  double totalexpenses= rent + food + transportation + misc;
+
+  //remaining money
+  double remainingmoney= income - totalexpenses;
+
+  print("total income= $income");
+  print("total expenses= $totalexpenses");
+  print("remaining money= $remainingmoney");
+}
