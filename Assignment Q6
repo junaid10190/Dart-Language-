@@ -1,0 +1,9 @@
+void main(){
+  int a= 29;
+  int b= 5;
+
+  //remainder using the modulo operator (%)
+  int remainder = a % b;
+
+  print("remainder when $a is divided by $b= $remainder");
+}
